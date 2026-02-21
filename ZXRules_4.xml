@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dataTableModify" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dataTableModify">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TableName" type="xs:string" minOccurs="0" />
+                <xs:element name="Item" type="xs:string" minOccurs="0" />
+                <xs:element name="ColName" type="xs:string" minOccurs="0" />
+                <xs:element name="OldValue" type="xs:string" minOccurs="0" />
+                <xs:element name="ModifyValue" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dataTableModify>
+    <TableName>Commands</TableName>
+    <Item>ExecutorAttack</Item>
+    <ColName>TimeAction</ColName>
+    <OldValue>200</OldValue>
+    <ModifyValue>100</ModifyValue>
+  </dataTableModify>
+  <dataTableModify>
+    <TableName>Commands</TableName>
+    <Item>ShockingTowerAttack</Item>
+    <ColName>Activity</ColName>
+    <OldValue>10</OldValue>
+    <ModifyValue>5</ModifyValue>
+  </dataTableModify>
+  <dataTableModify>
+    <TableName>Commands</TableName>
+    <Item>ShockingTowerAttack</Item>
+    <ColName>TimeAction</ColName>
+    <OldValue>200</OldValue>
+    <ModifyValue>100</ModifyValue>
+  </dataTableModify>
+  <dataTableModify>
+    <TableName>Commands</TableName>
+    <Item>BallistaAttack</Item>
+    <ColName>TimeAction</ColName>
+    <OldValue>500</OldValue>
+    <ModifyValue>250</ModifyValue>
+  </dataTableModify>
+  <dataTableModify>
+    <TableName>Commands</TableName>
+    <Item>MachineFireAttack</Item>
+    <ColName>TimeAction</ColName>
+    <OldValue>200</OldValue>
+    <ModifyValue>100</ModifyValue>
+  </dataTableModify>
+  <dataTableModify>
+    <TableName>Commands</TableName>
+    <Item>MachineFireAttack</Item>
+    <ColName>TimeLoopAction</ColName>
+    <OldValue>500</OldValue>
+    <ModifyValue>250</ModifyValue>
+  </dataTableModify>
+  <dataTableModify>
+    <TableName>Commands</TableName>
+    <Item>RangerAttack</Item>
+    <ColName>TimeAction</ColName>
+    <OldValue>300</OldValue>
+    <ModifyValue>150</ModifyValue>
+  </dataTableModify>
+  <dataTableModify>
+    <TableName>Commands</TableName>
+    <Item>RangerAttackVeteran</Item>
+    <ColName>TimeAction</ColName>
+    <OldValue>200</OldValue>
+    <ModifyValue>100</ModifyValue>
+  </dataTableModify>
+  <dataTableModify>
+    <TableName>Entities</TableName>
+    <Item>Ranger</Item>
+    <ColName>WalkSpeed</ColName>
+    <OldValue>1</OldValue>
+    <ModifyValue>1,5</ModifyValue>
+  </dataTableModify>
+</NewDataSet>
